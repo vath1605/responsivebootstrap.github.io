@@ -1,0 +1,253 @@
+*{
+    font-family: "Poppins", serif;
+}
+:root{
+    --green-color: #70c45d;
+    --bg-green: #f0f7f1 ;
+}
+.myNav{
+    z-index: 99;
+}
+span{
+    color: var(--green-color);
+}
+li{
+    a{
+        color: black !important;
+    }
+    .active{
+        color: var(--green-color) !important;
+    }
+}
+li{
+    a:hover{
+        color: #70C45D !important;
+    }
+}
+.myBg1{
+    background-color: var(--bg-green);
+    #btn1{
+        background-color: var(--green-color);
+    }
+    #btn2{
+        color: var(--green-color);
+    }
+}
+.myCard1{
+    transition: all 200ms ease;
+    svg{
+        fill: #70C45D;
+    }
+}
+.myCard1:hover{
+    background-color: var(--green-color) !important;
+    color: white;
+    svg{
+        fill: white;
+    }
+}
+.myBtn2{
+    background-color: var(--green-color) !important;
+    transition: all 200ms ease-in-out;
+    svg{
+        transition: all 200ms ease-in-out;
+    }
+}
+.myBtn2:hover{
+    background-color: #9dda90 !important;
+    svg{
+        transform: translateX(5px);
+    }
+}
+.myBtn3{
+    background-color: var(--bg-green) !important; 
+    color: var(--green-color) !important;
+}
+.bgSvg{
+    width: 60px !important;
+    height: 60px !important; 
+    background-color: var(--green-color);
+    place-items: center;
+    svg{
+        fill: white;
+    }
+}
+.myCard2{
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+.lay{
+    transition: all 250ms ease-in-out;
+    .bglay{
+        transition: all 250ms ease-in-out;
+        border-radius: 20px;
+        background-color: var(--green-color) !important;
+        a{
+            transition: all 250ms ease-in-out;
+        }
+    }
+}
+.lay:hover{
+    transform: translateY(-10px);
+    .bglay{
+        border-radius: 28px;
+        margin-top: -5px !important;
+        padding-bottom: 6px !important;
+        a{
+            color: var(--green-color) !important;
+        }
+    }
+}
+.myBg2{
+    background-color: var(--bg-green);
+    .myBtn3{
+        background-color: #d4edce !important;
+    }
+    .tick{
+        transition: all 200ms ease-in-out;
+        height: 75px !important;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        .bgTick{
+            transition: all 200ms ease-in-out;
+            width: 30px;
+            height: 30px;
+            background-color: var(--bg-green);
+            place-items: center;
+            svg{
+                fill: var(--green-color);
+                transition: all 200ms ease-in-out;
+            }
+        }
+    }
+    .tick:hover{
+        .bgTick{
+            background-color: var(--green-color) !important;
+            svg{
+                fill: white;
+            }
+        }
+    }
+}
+.myCard3{
+    transition: all 250ms ease-in-out;
+    height: 522px;
+    background-color: white !important;
+    border-radius: 20px;
+    .myBtn4{
+        border: 1px solid var(--green-color);
+        font-size: 12px !important;
+        color: var(--green-color);
+    }
+}
+.myCard3:hover{
+    transform: scale(1.07);
+}
+#card1{
+    .li1{
+        color:#23c999 ;
+    }
+    svg{
+        fill:#23c999 ;
+    }
+}
+#card2{
+    .li1{
+        color:#0ccaf0 ;
+    }
+    svg{
+        fill:#0ccaf0 ;
+    }
+}
+#card3{
+    .li1{
+        color:#fd7e14 ;
+    }
+    svg{
+        fill:#fd7e14 ;
+    }
+}
+#card4{
+    .li1{
+        color:#0f6efc ;
+    }
+    svg{
+        fill:#0f6efc ;
+    }
+}
+.myBg3{
+    background-color: var(--bg-green);
+}
+.txt{
+    p{
+        font-size: 12px;
+    }
+}
+.myAbs{
+    height: 30px;
+    background-color: var(--green-color);
+    font-size: 12px;
+    transform: rotate(45deg);
+    bottom: 90%;
+    left: 40%;
+}
+.pTxt{
+    p{
+        font-size: 13px;
+    }
+}
+.cardHelp{
+    .bgIcon{
+        width: 50px !important;
+        height: 50px !important;
+        background-color: var(--bg-green);
+        place-items: center;
+        transition: all 200ms ease-in-out;
+        svg{
+            transition: all 200ms ease-in-out;
+            color: var(--green-color);
+        }
+    } 
+}
+.cardHelp:hover{
+    .bgIcon{
+        background-color: var(--green-color);
+        svg{
+            color: white;
+        }
+    }
+}
+.name:focus{
+    border: 1px solid var(--green-color) !important;
+}
+.btnMsg{
+    background-color: var(--green-color) !important;
+}
+.myBg4{
+    background-color: var(--bg-green);
+    .bgIc{
+        width: 40px;
+        height: 40px;
+        place-items: center;
+        border: 1px solid gray;
+        transition: all 200ms ease-in-out;
+        svg{
+            transition: all 200ms ease-in-out;
+        }
+    }
+    .bgIc:hover{
+        border: 1px solid var(--green-color) !important;
+        svg{
+            fill: var(--green-color) !important;
+        }
+    }
+    .etec{
+        transition: all 200ms ease-in-out;
+        color: var(--green-color);
+    }
+    .etec:hover{
+        color: #568b4a;
+    }
+}
